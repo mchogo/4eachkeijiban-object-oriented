@@ -1,0 +1,150 @@
+body{font-family: "Hiragino Kaku Gothic ProN","メイリオ",sans-serif;}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color:black;
+}
+
+header ul{
+    float: left;
+    line-height: 30px;
+    min-width: 400px;
+}
+
+header ul li{
+    float: left;
+    list-style: none;
+    padding-right:50px;
+    color: white;
+    font-size: 18px;
+}
+.logo{
+    width:300px;
+}
+
+.main{
+    width: 100%;
+}
+
+.left{
+    float: left;
+    width: 75%;
+}
+
+.right{
+    float: left;
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top:22px;
+}
+
+h1{
+    border-left: 6px solid;
+    border-bottom: 2px solid;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.bookstore img{
+    width: 100%;
+    height: 100%;
+}
+
+.content_box{
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content_box img{
+    width:95%;
+}
+
+.box_pic1, .box_pic2{
+    display: inline-block;
+    width:23%;
+}
+
+.box_pic1{
+    padding-top:20px;
+}
+
+h2{
+    border-bottom: 2px dotted;
+}
+
+.right li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+footer{
+    clear:left;
+    width:100%;
+    height: 40px;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+    background-color: black;
+    text-align:center;
+    line-height: 40px;
+}
+
+.form h2{ margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-left:4px red solid;
+    background-color: #f1f1f1;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    width:90%;
+    font-size:20px;
+}
+
+form{ margin: 0 auto;
+    background-color: #fbfbfb;
+    border:3px #ebebeb solid;
+    border-radius: 10px;
+    width: 90%;
+}
+
+form div{
+    padding:15px;
+}
+
+.kiji{ margin: 0 auto;
+    background-color: #fbfbfb;
+    border:3px #ebebeb solid;
+    border-radius: 10px;
+    width: 90%;
+    padding-bottom: 15px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.kiji h2, .contents{
+    margin-left: 15px;
+    margin-right:15px;
+    margin-top:10px;
+}
+
+.text, textarea, .dropdown{
+    border:1px solid #dfdfdf;
+    padding:5px;
+    color: #999;
+    background: #fff;
+    width:60%;
+}
+
+.submit{
+    border:1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color:#bfbfbf;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+}
